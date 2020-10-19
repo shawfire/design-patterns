@@ -4,7 +4,7 @@ var Store = require('./Store');
 
 logger.log('starting app...');
 
-var alex = new Shopper('alex', 500)
+var john = new Shopper('john', 500)
 var ski_shop = new Store('Steep and Deep Supplies', [
     {
         item: 'Downhill Skis',
